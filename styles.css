@@ -9,12 +9,14 @@
     font-weight: 600;
     font-size: 30px;
     padding-inline:10rem;
-	text-align:center;
 }
 .header h2{
     background-color: #011e29;
     text-align: center;
     color:white;
+}
+header.header{
+	text-align:center;
 }
 .container{
     display: flex;
@@ -28,7 +30,7 @@
     flex-direction: column;
     margin-bottom: 1vw;
 }
-div .pictorial-news-section{
+div.pictorial-news-section{
 	text-align:center;
 }
 .pictorial-news-section h3{
