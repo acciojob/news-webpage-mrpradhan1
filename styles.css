@@ -1,16 +1,19 @@
 *{
     background-color:  #f5f5f5;
     margin-inline: 0px;
+    margin-top: 0px;;
     box-sizing: border-box;
 }
 .header{
     background-color: #011e29;
-    border:1px solid black;
-    padding:1.5rem;
-    color:white;
     font-weight: 600;
     font-size: 30px;
+    padding-inline:10rem;
+}
+.header h2{
+    background-color: #011e29;
     text-align: center;
+    color:white;
 }
 .container{
     display: flex;
@@ -18,17 +21,20 @@
     justify-content: space-around;
     margin-inline: 5vw;
 }
-.pictorial img{
+.pictorial-news-section img{
     width:20vw;
     display: flex;
     flex-direction: column;
     margin-bottom: 1vw;
+}
+.pictorial-news-section h3{
+    text-align: center;
 }
 .main{
     width:40vw;
     text-align: center;
     margin-right: 5vw;
 }
-.latestNews{
+.latest-news-section{
     width:30vw;
 }
